@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background: url('../img/background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 1rem;
+}
+h1{
+    font-family: 'Seymour One', sans-serif;
+    font-size: 5rem;
+    color: whitesmoke;
+}
+
+h2{
+    font-family: monospace;
+    font-size: 2.5rem;
+    color: whitesmoke;
+}
+h2 a{
+    text-decoration: none;
+}
+
+.black{
+    color:black;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+form > textarea {
+    width: 300px;
+    height: 100px;
+    resize: none;
+    border-radius: 10px;
+    border: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: monospace;
+
+    text-align: center;
+
+    background-color: whitesmoke;
+}
+
+form > .result{
+    width: 300px;
+    height: 100px;
+    resize: none;
+    border-radius: 10px;
+    border: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: monospace;
+    
+    text-align: center;
+
+    background-color: whitesmoke;
+
+    border: 2.5px solid black;
+}
+
+form button{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    border: none;
+    font-size: 1.5rem;
+    font-family: monospace;
+    background-color: #7D21E6;
+    color: whitesmoke;
+    cursor: pointer;
+
+    border: whitesmoke 5px solid;
+
+    transition: 0.5s;
+}
+
+form button:hover{
+    background-color: whitesmoke;
+    color: black;
+
+    transition: 0.5s;
+}
+
+form > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+label{
+    font-size: 1.2rem;
+    font-family: monospace;
+    color: whitesmoke;
+}
+
+button.copy{
+    width: 3rem;
+    height: 3rem;
+
+    border-radius: 0.5rem;
+
+    background: whitesmoke;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 2.5rem;
+    font-family: monospace;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: underline;
+    font-weight: bold;
+
+    color: #c6a2ee;
+}
