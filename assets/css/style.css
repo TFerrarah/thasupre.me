@@ -144,3 +144,49 @@ a{
 
     color: #c6a2ee;
 }
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 2.2rem;
+    }
+    h2{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    form{
+        flex-direction: column;
+    }
+
+    form input::placeholder{
+        font-size: 0.8rem;
+    }
+
+    form > textarea {
+        width: 200px;
+        height: 3rem;
+        font-size: 1rem;
+    }
+    form > .result{
+        width: 200px;
+        height: 3rem;
+        font-size: 1rem;
+    }
+    form button{
+        height: 3rem;
+        font-size: 1rem;
+    }
+    form > div{
+        gap: 0.2rem;
+    }
+    label{
+        font-size: 1rem;
+    }
+    button.copy{
+        width: 2rem;
+        height: 2rem;
+    }
+    footer{
+        font-size: 1rem;
+    }
+}
